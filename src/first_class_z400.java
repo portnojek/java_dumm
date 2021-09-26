@@ -1,3 +1,4 @@
+import javax.swing.*;
 import java.util.Scanner;
 
 public class first_class_z400 {
@@ -8,6 +9,7 @@ public class first_class_z400 {
         Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine();
         System.out.printf("Witaj "+name);
+        JOptionPane.showMessageDialog(null, name);
 
     }
 
